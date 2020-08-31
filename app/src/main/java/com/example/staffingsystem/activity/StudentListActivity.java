@@ -1,6 +1,5 @@
-package com.example.asus.student;
+package com.example.staffingsystem.activity;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -12,7 +11,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,10 +25,11 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
-import StudentDBHelper.StudentDBHelper;
-import Student.Student;
+import com.example.staffingsystem.StudentDBHelper;
+import com.example.staffingsystem.Student;
 //import AddStudentActivity;
-import TableContanst.TableContanst;
+import com.example.staffingsystem.StudentDao;
+import com.example.staffingsystem.TableContanst;
 
 public class StudentListActivity extends ListActivity implements
         OnClickListener, OnItemClickListener, OnItemLongClickListener {

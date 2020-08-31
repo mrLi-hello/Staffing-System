@@ -1,4 +1,4 @@
-package com.example.staffingsystem;
+package com.example.staffingsystem.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
